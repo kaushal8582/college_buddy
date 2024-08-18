@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /collegebuddy/api/v1/ebooks/ebookdownload/66b062f8d42d298b6fd98b45</pre>
+</body>
+</html>

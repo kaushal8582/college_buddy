@@ -1,0 +1,75 @@
+#constulalcy {
+  padding: 100px 80px;
+  width: 100%;
+}
+
+.cons-card {
+  border: 5px solid var(--green);
+  border-radius: 20px;
+  height: 596px;
+}
+
+.leftConstulalcy {
+  padding: 50px;
+  width: 60%;
+}
+
+.leftConstulalcy h1 {
+  font-size: 60px;
+  font-weight: 250;
+}
+
+.leftConstulalcy h1 span {
+  color: var(--green);
+  font-weight: 400;
+}
+
+.leftConstulalcy p {
+  margin-top: 50px;
+  width: 569px;
+  font-size: 1.5vw;
+  font-weight: 250;
+}
+
+.leftConstulalcy p span {
+  padding-top: 50px;
+  color: var(--green);
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 56px;
+  gap: 25px;
+}
+
+.buttons button:nth-child(1) {
+  width: 291px;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.buttons button:nth-child(2) {
+  color: black;
+  width: 247px;
+  background: transparent;
+  border: 3px solid black;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.rightConstulalcy {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.con-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

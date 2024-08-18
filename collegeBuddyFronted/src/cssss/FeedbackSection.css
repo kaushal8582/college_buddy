@@ -1,0 +1,60 @@
+
+#feadback {
+  padding: 100px 80px;
+  gap: 20px;
+  overflow: hidden;
+  background: var(--gray);
+}
+
+#feadback>h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+#feadback>h1 span {
+  color: orange;
+  font-weight: 400;
+}
+
+
+
+.fcards {
+  margin-top: 50px;
+  gap: 20px;
+  animation: animFeadback 25s infinite linear;
+}
+
+.fcards:hover{
+  animation-play-state: paused;
+}
+
+@keyframes animFeadback {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+@media screen and (max-width:426px) {
+  @keyframes animFeadback {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(-600%);
+    }
+  }
+}
+
+@media screen and (max-width:769px) {
+  #feadback>h1{
+    font-size: 50px;
+  }
+}

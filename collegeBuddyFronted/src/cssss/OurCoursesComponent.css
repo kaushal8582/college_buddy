@@ -1,0 +1,49 @@
+#ourCources {
+  padding: 150px 80px;
+}
+
+#courcleft h1 {
+  font-size: 64px;
+  font-weight: 250;
+}
+
+#courcleft h1 span {
+  color: var(--green);
+  font-weight: 400;
+}
+
+#courcleft button {
+  width: 374px;
+  border: none;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.logovideoanimated {
+  height: 25vw;
+}
+
+@media screen and (max-width:1024px) {
+  #courcleft h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .logovideoanimated {
+    height: 50vw;
+  }
+}
+@media screen and (max-width:426px) {
+  #courcleft h1 {
+    font-size: 40px;
+  }
+  #ourCources {
+    padding: 150px 17px;
+  }
+  .logovideoanimated {
+    height: 70vw;
+  }
+  
+}

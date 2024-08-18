@@ -1,0 +1,425 @@
+
+
+@media screen and (max-width:426px) {
+  #navbarMenuFirst {
+    top: 0;
+    left: 0%;
+    height: 100vh;
+  }.cross img {
+    height: 9vw;
+  }
+  #navbarMenuFirst li{
+    width: 100%;
+    height: 50px;
+  }
+  .navbarsign{
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width:1024px) {
+  .nav{
+    padding: 0 8vw;
+  }
+  #content>h1 {
+    font-size: 7vw;
+  }
+
+  #about h1 {
+    font-size: 5vw;
+  }
+
+  #about img {
+    height: 58vw;
+  }
+
+  #courcleft h1 {
+    font-size: 5vw;
+  }
+
+  #ourResource img {
+    height: 40vw;
+  }
+
+  #ourResource h1 {
+    font-size: 4vw;
+  }
+
+  .leftConstulalcy h1 {
+    font-size: 4vw;
+  }
+
+  .leftConstulalcy p {
+    width: 400px;
+    
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .fsec1 h2,
+  .fsec2 h2,
+  .fsec3 h2,
+  .fsec4 h2 {
+    font-size: 1.2vw;
+  }
+
+  .fsec2 ol,
+  .fsec3 ol,
+  .fsec4 ol {
+    gap: 10px;
+  }
+
+  .fsec1,
+  .fsec2,
+  .fsec3,
+  .fsec4 {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .nav{
+    padding: 0 5vw;
+  }
+  nav .hamburger {
+    display: block;
+  }
+
+
+  #leftNav img {
+    height: 8vw;
+  }
+
+  nav .hamburger img {
+    height: 40px;
+    object-fit: cover;
+  }
+
+  nav #rightNav {
+    display: none;
+  }
+
+ 
+  #ourCources {
+    /* height: 100vh; */
+    flex-direction: column;
+    padding: 100px 15px;
+    gap: 50px;
+  }
+
+  #courcleft {
+    height: 374px;
+    width: 100%;
+  }
+
+  #courcleft h1 {
+    font-size: 64px;
+  }
+
+  #courcright {
+    width: 100%;
+    height: 374px;
+  }
+
+
+  #feadback h1 {
+    font-size: 58px;
+  }
+
+  .fcard{
+    min-width: 450px;
+    min-height: 450px;
+  }
+
+  .fcard p {
+    line-height: 4vw;
+  }
+
+  #ourResource {
+    flex-direction: column;
+  }
+
+  #ourResource img {
+    height: 58vw;
+  }
+
+  #ourResource h1 {
+    font-size: 8vw;
+  }
+
+  #courcleft .button{
+    font-size: 21px;
+  }
+
+  .logovideoanimated {
+    height: 50vw;
+  }
+
+  .cons-card {
+    height: 1080px !important;
+    flex-direction: column !important;
+  }
+
+  .leftConstulalcy {
+    width: 100% !important;
+    padding: 30px !important;
+  }
+
+  .leftConstulalcy h1 {
+    font-size: 6vw !important;
+  }
+
+  .rightConstulalcy {
+    width: 100% !important;
+  }
+
+  .leftConstulalcy p {
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+
+  .buttons {
+    flex-direction: row;
+  }
+
+  #footer {
+    height: 1082px !important;
+  }
+
+  .footer-content {
+    height: 1100px !important;
+    flex-direction: column !important;
+    gap: 50px !important;
+    justify-content: start !important;
+  }
+
+  .fsec1 h2,
+  .fsec2 h2,
+  .fsec3 h2,
+  .fsec4 h2 {
+    font-size: 3.2vw;
+  }
+
+  .fsec2 ol,
+  .fsec3 ol,
+  .fsec4 ol {
+    margin-top: 10px;
+    gap: 25px;
+  }
+
+  .fsec2 li,
+  .fsec3 li,
+  .fsec4 li {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+}
+
+@media screen and (max-width:426px) {
+  .nav {
+    padding:  0 2vw 0 4vw;
+  }
+
+  #leftNav {
+    padding: 12px;
+  }
+
+  #leftNav img {
+
+    height: 12vw;
+  }
+
+  .logo-text h1 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+
+  nav .hamburger {
+    padding-right: 30px;
+  }
+
+  #content>h1 {
+    font-size: 51px;
+    font-weight: 400;
+  }
+
+  #content {
+    /* padding: 50px; */
+    margin-top: 5vw;
+  }
+
+  .watsapp h2 {
+    font-size: 17px;
+  }
+
+  .watsapp {
+    width: 350px;
+  }
+
+  #courcleft h1 {
+    font-size: 42px;
+  }
+
+  #courcleft button {
+    width: 317px;
+  }
+
+  #courcright .ourRightImg {
+    height: 9vw;
+  }
+
+  .logovideoanimated {
+    height: 70vw;
+  }
+
+  #feadback {
+    padding: 100px 20px ;
+  }
+
+  .feadh1 {
+    font-size: 8vw !important;
+  }
+
+  .fcard {
+    min-width: 350px !important;
+    min-height: 375px !important;
+    padding: 37px;
+  }
+
+  .fcard p {
+    font-size: 15px;
+    line-height: 5vw;
+  }
+
+  .perImg {
+    width: 38px;
+    height: 38px;
+  }
+
+  .perImg img:nth-child(2) {
+    position: absolute;
+    top: -25%;
+    right: -23%;
+    height: 4vw;
+  }
+
+  .redcircle {
+    bottom: -85% !important;
+    right: -80% !important;
+  }
+
+  .person {
+    gap: 15px;
+  }
+
+  .resourceContent h1 {
+    padding: 30px;
+  }
+
+  .resourceContent {
+    width: 362px;
+  }
+
+  .resourceContent button {
+    width: 100%;
+    margin-top: 14px;
+    height: 55px;
+  }
+
+  #constulalcy {
+    padding: 15px !important;
+  }
+  .buttons button:nth-child(2) {
+    width: 291px !important;
+  }
+
+  .leftConstulalcy h1 {
+    font-size: 8vw !important;
+  }
+
+  .leftConstulalcy p {
+    font-size: 18px !important;
+  }
+
+  .buttons {
+    flex-direction: column !important;
+  }
+
+  .con-img {
+    height: 74%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fsec2 li,
+  .fsec3 li,
+  .fsec4 li {
+    font-size: 17px;
+  }
+
+  .fsec2 ol,
+  .fsec3 ol,
+  .fsec4 ol {
+    gap: 7px;
+  }
+
+  .footer-content {
+    height: 900px !important;
+  }
+
+  #footer {
+    height: 940px;
+    padding: 15px;
+  }
+  .social-links img{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width:376px) {
+  #content>h1 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  .watsapp {
+    width: 310px;
+  }
+
+  .watsapp h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .con-img{
+    height: 63%;
+  }
+ 
+
+  #ourCources {
+    padding: 100px 15px;
+  }
+
+  #constulalcy {
+    padding: 50px 20px;
+  }
+
+  .fcard {
+    padding: 22px;
+    min-width: 335px;
+  }
+
+  #footer {
+    padding: 50px 30px;
+  }
+
+  #footer h3{
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+}

@@ -1,0 +1,27 @@
+.login-window .login-button-div #login-button {
+
+  position: relative;
+  height: 60px;
+  border: none;
+  z-index: 0;
+  font-family: 'Uxum Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: black;
+  background: #79B058;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 300ms ease-in-out;
+}
+
+
+.login-window .login-button-div #login-button:hover{
+  background: #1e1e1e;
+  color: white;
+  
+}
+
+

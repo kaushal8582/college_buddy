@@ -1,0 +1,22 @@
+.background {
+  overflow: hidden;
+  background: linear-gradient(to right, rgba(121, 176, 88, 0.25) 1px, transparent 1px),
+              linear-gradient(to bottom, rgba(121, 176, 88, 0.25) 1px, transparent 1px);
+  background-size: 4em 4em;
+  mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 110%);
+  z-index: -10;
+}
+
+.square {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-color: rgba(121, 176, 88, 0.25);
+  opacity: 0;
+  transition: opacity 1s;
+  z-index: 40;
+}
+
+.square.visible {
+  opacity: 1;
+}

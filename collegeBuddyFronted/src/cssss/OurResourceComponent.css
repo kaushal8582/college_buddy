@@ -1,0 +1,23 @@
+#ourResource {
+  padding: 88px 30px;
+  gap: 30px;
+}
+
+.resourceContent h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.resourceContent h1 span {
+  color: var(--green);
+  font-weight: 400;
+}
+
+.resourceContent button {
+  width: 323px;
+  border: none;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-top: 50px;
+  font-weight: 400;
+}

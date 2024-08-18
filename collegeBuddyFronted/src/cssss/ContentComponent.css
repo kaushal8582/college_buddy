@@ -1,0 +1,50 @@
+
+
+#content h1 {
+  font-size: 88px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 250;
+}
+
+#content h1 span {
+  color: var(--green);
+  font-weight: 400;
+}
+
+.watsapp h2 {
+  font-family: uxumRegular;
+  font-weight: 300;
+}
+.watsapp{
+  width: 30vw;
+}
+
+@media screen and (max-width:769px) {
+  #content h1{
+    font-size: 50px;
+    width: 80%;
+  }
+  .watsapp{
+    width: 60vw;
+  }
+  .watsapp.btn{
+    margin: 25px;
+  }
+  .watsapp h2{
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width:426px) {
+  #content h1{
+    font-size: 41px;
+    font-weight: 630;
+  }
+  .watsapp{
+    width: 85vw;
+  }
+  .watsapp h2{
+    font-size: 4vw;
+  }
+}

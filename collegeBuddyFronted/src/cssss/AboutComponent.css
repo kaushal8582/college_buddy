@@ -1,0 +1,13 @@
+#about h1 {
+  font-size: 64px;
+  font-weight: 250;
+}
+
+#about h1 span {
+  color: var(--green);
+  font-weight: 400;
+}
+
+#about h1{
+  font-size: 6vw;
+}
